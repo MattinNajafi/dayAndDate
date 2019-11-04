@@ -42,7 +42,7 @@ main{
     color: black;
 }
 
-#divOfDate{
+#divOfMonths{
     text-align: center;
     height: 50%;
     width: 30%;
@@ -50,7 +50,7 @@ main{
     border-top-left-radius: 25%;
 }
 
-#divOfDate h1{
+#divOfMonths h1{
     color:black;
 }
 
