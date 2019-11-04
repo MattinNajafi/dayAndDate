@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    font-family: 'Aldrich';
+}
+
+body{
+    background: #e2dfdf;
+}
+header{
+    background: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+    
+}
+
+h1{
+    padding:1.5rem 0;
+    color:white;
+    font-weight: 300;
+}
+
+main{
+    height: 100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+#divOfDays{
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    background:white;
+    border-top-right-radius: 25%;
+}
+
+#divOfDays h1{
+    color: black;
+}
+
+#divOfDate{
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    background:white;
+    border-top-left-radius: 25%;
+}
+
+#divOfDate h1{
+    color:black;
+}
+
+main div:hover{
+    box-shadow: 7px 7px 10px black;
+}
